@@ -25,9 +25,9 @@ class Hijo(Madre): ##Herencia
     mi_clase_madre = Madre("Ambato","Nissan 1200")
     
     #Objeto Hijo
-   # el_hijo = Hijo("Quito","Ford 150","Yamaha")
-    
+    el_hijo = Hijo("Quito","Ford 150","Yamaha")
+
     print(mi_clase_madre.conducir())
     print(mi_clase_madre.vivir())
-    #print(el_hijo.conducir())
-    #print(el_hijo.vivir())
+    print(el_hijo.conducir())
+    print(el_hijo.vivir())
