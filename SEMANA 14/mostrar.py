@@ -1,5 +1,6 @@
 import tkinter as tk
-from tkinter import ttk, messagebox  #Importar libreria para cuadros de mensajes
+from tkinter import messagebox  #Importar libreria para cuadros de mensajes
+from tkinter import ttk
 from tkcalendar import DateEntry
 import datetime
 
